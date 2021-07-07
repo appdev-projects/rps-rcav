@@ -1,4 +1,4 @@
-image: jelaniwoods/appdev2021-rps-rcav:summer@sha256:5b8554e2163e932972e9592de1364103853e56ae56c59e06160a3e4ffd7166d
+image: jelaniwoods/appdev2021-rps-rcav:summer@sha256:5b8554e2163e932972e9592de1364103853e56ae56c59e06160a3e4ffd7166d7
 
 tasks:
   - command: bundle install
