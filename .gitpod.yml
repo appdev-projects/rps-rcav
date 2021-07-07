@@ -1,6 +1,7 @@
-image: jelaniwoods/appdev2021-rps-rcav:spring
+image: jelaniwoods/appdev2021-rps-rcav:summer@sha256:06f8167ddbae7d1c511a37264efeb34dbcef12245ce736f3adc69dc5092cf2fc
 
 tasks:
+  - command: bundle install
   - init: bin/setup
 ports:
   - port: 3000
@@ -8,6 +9,6 @@ ports:
 
 vscode:
   extensions:
-    - vortizhe.simple-ruby-erb@0.2.1:BzpDuNAqJwUkxqT2t1YIuQ==
-    - CraigMaslowski.erb@0.0.1:5znDha/nn0PphUrpB9a5Nw==
-    - aliariff.vscode-erb-beautify@0.2.0:JPBIiJcuf3dj5jx4nE7u8Q==
+    - shd101wyy.markdown-preview-enhanced
+    - Vense.rails-snippets
+    - wingrunr21.vscode-ruby
